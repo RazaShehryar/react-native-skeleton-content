@@ -317,7 +317,7 @@ const SkeletonContent: React.FunctionComponent<ISkeletonContentProps> = ({
     key: number | string
   ) => (
     <View key={layoutStyle.key || key} style={layoutStyle}>
-     
+      {childrenBones}
     </View>
   );
 
